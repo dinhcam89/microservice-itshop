@@ -38,7 +38,7 @@ The infrastructure for this project is deployed entirely on **Google Cloud Platf
 - **GitLab Server**: Self-hosted version control system for managing the codebase and CI/CD pipelines.
 - **GitLab Runner**: Self-hosted runners for executing CI/CD jobs.
 - **Harbor Registry**: Self-hosted registry for managing Docker images and Helm packages.
-
+![System Infrastructure](resources/SystemArchitecture_OperationENV.PNG)
 ## Continuous Integration (CI)
 
 The CI pipeline is designed to ensure code quality, security, and best practices. The following tools are integrated into the CI process:
