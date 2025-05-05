@@ -102,11 +102,11 @@ This section is reserved for showcasing images and screenshots of the system's i
 ![CD pipeline on Prod 01](resources/cd-prod.png)
 
 ### Prometheus Metrics
-![Prometheus Metrics](resources/monitor-01.PNG)
+![Prometheus Metrics](resources/monitor-01.png)
 
 ### Grafana Dashboard
-![Grafana Dashboard](resources/monitor-02.PNG)
-![Grafana Dashboard](resources/monitor-03.PNG)
+![Grafana Dashboard](resources/monitor-02.png)
+![Grafana Dashboard](resources/monitor-03.png)
 
 ## Author
 
