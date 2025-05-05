@@ -8,36 +8,38 @@ Welcome to the **Microservice IT Shop** project! This repository contains the co
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Infrastructure](#infrastructure)
-  - [Overall CICD workflow](#overall-cicd-workflow)
+  - [Overall CICD Workflow](#overall-cicd-workflow)
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Continuous Deployment (CD)](#continuous-deployment-cd)
   - [Monitoring](#monitoring)
   - [Project Implementation](#project-implementation)
-    - [CI pipeline on dev Branch](#ci-pipeline-on-dev-branch)
-    - [CI pipeline on prod Branch](#ci-pipeline-on-prod-branch)
+    - [CI Pipeline on Dev Branch](#ci-pipeline-on-dev-branch)
+    - [CI Pipeline on Prod Branch](#ci-pipeline-on-prod-branch)
     - [CD for Dev Environment](#cd-for-dev-environment)
     - [CD for Prod Environment](#cd-for-prod-environment)
     - [Prometheus Metrics](#prometheus-metrics)
     - [Grafana Dashboard](#grafana-dashboard)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
   - [Author](#author)
 
 ## Overview
 
 This project leverages modern DevOps tools and practices to ensure reliable and secure software delivery. Below is an overview of the technologies and tools used:
 
-- **Infrastructure**: Hosted on **Google Cloud Platform (GCP)**
-- **Version Control**: Self-hosted **GitLab Server**
-- **Container Registry**: Self-hosted **Harbor Registry**
-- **CI/CD Pipelines**: Managed with **GitLab CI/CD**
+- **Infrastructure**: Hosted on **Google Cloud Platform (GCP)**.
+- **Version Control**: Self-hosted **GitLab Server**.
+- **Container Registry**: Self-hosted **Harbor Registry**.
+- **CI/CD Pipelines**: Managed with **GitLab CI/CD**.
 - **Security Tools**:
-  - Dependency check with **OWASP Dependency-Check**
-  - Dockerfile scanning with **Hadolint**
-  - Code scanning with **SonarQube**
-  - Image scanning with **Trivy**
+  - Dependency check with **OWASP Dependency-Check**.
+  - Dockerfile scanning with **Hadolint**.
+  - Code scanning with **SonarQube**.
+  - Image scanning with **Trivy**.
 - **Deployment**:
-  - Continuous Deployment with **ArgoCD**
-  - Blue-Green Deployment strategy with **Argo Rollouts**
-- **Monitoring**: Metrics and visualization with **Prometheus** and **Grafana**
+  - Continuous Deployment with **ArgoCD**.
+  - Blue-Green Deployment strategy with **Argo Rollouts**.
+- **Monitoring**: Metrics and visualization with **Prometheus** and **Grafana**.
 
 ## Infrastructure
 
@@ -58,8 +60,8 @@ The operation environment for running and managing the system includes:
 
 ![Operation Infrastructure](resources/SystemArchitecture_OperationENV.PNG)
 
-## Overall CICD workflow
-![CICD workflow](resources/CICD_Workflow.PNG)
+## Overall CICD Workflow
+![CICD Workflow](resources/CICD_Workflow.PNG)
 
 ## Continuous Integration (CI)
 
@@ -87,26 +89,34 @@ Monitoring and observability are achieved through the following tools:
 
 This section is reserved for showcasing images and screenshots of the system's implementation. Below you can add relevant visuals to highlight system components, workflows, or dashboards.
 
-### CI pipeline on dev Branch
-![CI pipeline on Dev Branch 01](resources/ci-dev_branch.PNG)
-![CI pipeline on Dev Branch 02](resources/ci02-dev_branch.PNG)
+### CI Pipeline on Dev Branch
+![CI Pipeline on Dev Branch - Step 1](resources/ci-dev_branch.png)
+![CI Pipeline on Dev Branch - Step 2](resources/ci02-dev_branch.png)
 
-### CI pipeline on prod Branch
-![CI pipeline on Prod Branch 01](resources/ci-prod_branch01.png)
-![CI pipeline on Prod Branch 02](resources/ci-prod_branch02.png)
+### CI Pipeline on Prod Branch
+![CI Pipeline on Prod Branch - Step 1](resources/ci-prod_branch01.png)
+![CI Pipeline on Prod Branch - Step 2](resources/ci-prod_branch02.png)
 
 ### CD for Dev Environment
-![CD pipeline on Dev 01](resources/cd-argocd.png)
+![CD Pipeline on Dev Environment](resources/cd-argocd.png)
 
 ### CD for Prod Environment
-![CD pipeline on Prod 01](resources/cd-prod.png)
+![CD Pipeline on Prod Environment](resources/cd-prod.png)
 
 ### Prometheus Metrics
 ![Prometheus Metrics](resources/monitor-01.png)
 
 ### Grafana Dashboard
-![Grafana Dashboard](resources/monitor-02.png)
-![Grafana Dashboard](resources/monitor-03.png)
+![Grafana Dashboard - Metrics](resources/monitor-02.png)
+![Grafana Dashboard - Logs](resources/monitor-03.png)
+
+## Getting Started
+
+To get started with this project, follow the installation and deployment instructions in the repository's main documentation.
+
+## Contributing
+
+We welcome contributions! Please follow the repository's guidelines for submitting issues, bug fixes, or new features.
 
 ## Author
 
